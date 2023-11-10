@@ -24,7 +24,7 @@ const playerClass = [
     intelligence : 10,
     faith : 10,
     arcane : 10,
-    img: "ER_Class_Wretch.webp",
+    img: "images/ER_Class_Wretch.webp",
     quote: "Unlimited potential"
 },
 bandit = {
@@ -38,7 +38,7 @@ bandit = {
     intelligence : 9,
     faith : 8,
     arcane : 14,
-    img: "ER_Class_Bandit.webp",
+    img: "images/ER_Class_Bandit.webp",
     quote: "Patches says hi"
 },
  astrologer = {
@@ -52,7 +52,7 @@ bandit = {
     intelligence : 16,
     faith : 7,
     arcane : 9,
-    img: "ER_Class_Astrologer.webp",
+    img: "images/ER_Class_Astrologer.webp",
     quote: "Stars lead the way"
 },
 warrior = {
@@ -66,7 +66,7 @@ warrior = {
     intelligence : 10,
     faith : 8,
     arcane : 9,
-    img: "ER_Class_Warrior.webp",
+    img: "images/ER_Class_Warrior.webp",
     quote: "Fight with elegance"
 },
 hero = {
@@ -80,7 +80,7 @@ hero = {
     intelligence : 7,
     faith : 8,
     arcane : 11,
-    img: "ER_Class_Hero.webp",
+    img: "images/ER_Class_Hero.webp",
     quote: "Radahn is waiting"
     
 },
@@ -95,7 +95,7 @@ prophet = {
     intelligence : 7,
     faith : 16,
     arcane : 11,
-    img: "ER_Class_Prophet.webp",
+    img: "images/ER_Class_Prophet.webp",
     quote: "Goldmask *points*"
 },
 samurai = {
@@ -109,7 +109,7 @@ samurai = {
     intelligence : 9,
     faith : 8,
     arcane : 8,
-    img: "ER_Class_Samurai.webp",
+    img: "images/ER_Class_Samurai.webp",
     quote: "A cultured one i see"
 },
 prisoner = {
@@ -123,7 +123,7 @@ prisoner = {
     intelligence : 14,
     faith : 6,
     arcane : 9,
-    img: "ER_Class_Prisoner.webp",
+    img: "images/ER_Class_Prisoner.webp",
     quote: "Berserk reference"
 },
 confessor = {
@@ -137,7 +137,7 @@ confessor = {
     intelligence : 9,
     faith : 14,
     arcane : 9,
-    img: "ER_Class_Confessor.webp",
+    img: "images/ER_Class_Confessor.webp",
     quote: "Deliver absolution"
 },
 ]
@@ -148,7 +148,7 @@ confessor = {
             app.innerHTML = /*HTML*/` 
 
             <div class="image-container">
-            <img class="headerImg"src="ER.png">  
+            <img class="headerImg"src="images/ER.png">  
 
             <div class="levelDisplay" id="levelDiv"></div> 
            
@@ -192,7 +192,7 @@ confessor = {
             <div id="confessorDiv"></div>
              
             
-            <img class="ranni" src="Ranni.jpg">
+            <img class="ranni" src="images/Ranni.jpg">
             <img class="tarnishedImg"id="imgId" src="">
             <button class="checkButton"id="checkButton"onclick="classDisplay()">Seek guidance</button>
             </div>
